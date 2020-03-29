@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(204, 215, 219);
+    max-width: 1200px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+nav li{
+    list-style: none;
+    
+}
+
+nav li a{
+    color: rgb(156, 10, 10);
+    padding: 1rem;
+    
+}
+
+nav li a:hover{
+    background: #444;
+    padding: 1rem;
+}
+
+nav{
+    background: rgba(13, 20, 20, 0.6);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+#home{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 5px;
+    background: rgb(173, 191, 197);
+    height: 100%;
+   
+    
+}
+
+.grid{
+    background: rgb(68, 68, 68);
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.grid3{
+    grid-column: 1/4;
+    grid-row: 3;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+
+.grid img{
+    width: 100%;
+}
+
+
+#about{
+    background: rgb(153, 161, 175);
+    height: 70vh;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    word-spacing: 0.7rem;
+    padding: 2rem;
+    padding-top: 3.5rem;
+}
+
+
+#contact{
+    background: rgb(196, 197, 199);
+    height: 100vh;
+    padding: 1rem;
+    padding-left: 15rem;
+}
+
+#contact div, #contact p, #contact h2{
+    margin: 3rem;
+}
+
+#name, #email{
+    width: 60%;
+    height: 2rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+button{
+    padding: 0.5rem; 
+}
+
+
+button:hover{
+    background: rgb(223, 217, 217);
+    
+}
+
+
+
+footer{
+    background: rgb(61, 63, 63);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
