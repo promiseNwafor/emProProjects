@@ -1,0 +1,28 @@
+body{
+    background: rgb(194, 174, 174);
+}
+
+.display{
+    width: 80%;
+    position: sticky;
+    top: 0;
+    background: rgb(0, 255, 115);
+    color: rgb(6, 20, 9);
+    height: 40vh;
+    margin: 2rem auto;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.dishes{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.dishes img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(0, 255, 115);
+    margin: 1rem;
+}
